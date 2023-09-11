@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>L'earn JS</title>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Data Filtering Tool </h1>
+        <form>
+            <h2>Filter Data</h2>
+            <div class="race">
+                <label>Race :</label>
+                <select name="" id="">
+                    <option value="valeur1">Select Race</option>
+                    <option value="valeur2">Male</option>
+                    <option value="valeur3">Female</option>
+                </select>
+            </div>
+            <div class="age">
+                <label>Age Range :</label>
+                <div class="range-input">
+                    <div class="slider">
+                        <div class="progress"></div>
+                    </div>
+                    <input type="range" class="range-min" min="0" max="100" value="0">
+                    <input type="range" class="range-max" min="0" max="100" value="100">
+                    <div class="data">
+                        <span>0 </span>
+                        -
+                        <span> 100</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="income">
+                <label>Minimum Income Range :</label>
+                <div class="range-input">
+                    <div class="slider">
+                        <div class="progress"></div>
+                    </div>
+                    <input type="range" class="range-min" min="0" max="100" value="0">
+                    <input type="range" class="range-max" min="0" max="100" value="100">
+                    <div class="data">
+                        $<span>0 </span>
+                        -
+                        $<span> 100000</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="Height">
+                <label>Height Range (cm) :</label>
+                <div class="range-input">
+                    <div class="slider">
+                        <div class="progress"></div>
+                    </div>
+                    <input type="range" class="range-min" min="0" max="100" value="0">
+                    <input type="range" class="range-max" min="0" max="100" value="100">
+                    <div class="data">
+                        <span>0 </span>
+                        -
+                        <span> 200</span>Cm
+                    </div>
+                </div>
+
+            </div>
+            <button type="button">Calculate Pourcentage</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
